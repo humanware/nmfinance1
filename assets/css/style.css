@@ -81,7 +81,6 @@ img {
   opacity: 1;
 }
 
-
 .navbar {
   transition: all 0.3s ease;
   z-index: 1035;
@@ -794,6 +793,12 @@ img {
   .back-to-top {
     right: 28px;
     bottom: 96px;
+  }
+  .hero-card {
+    margin-top: 0px;
+  }
+  .hero h1 {
+    font-size: 2em;
   }
 }
 
