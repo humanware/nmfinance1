@@ -77,18 +77,6 @@ img {
   height: 36px;
 }
 
-.navbar .logo-light {
-  display: none;
-}
-
-.navbar.solid .logo-default {
-  display: none;
-}
-
-.navbar.solid .logo-light {
-  display: inline-block;
-}
-
 .navbar .nav-link {
   color: var(--white);
   font-weight: 600;
@@ -153,10 +141,6 @@ img {
 .offcanvas .nav-link {
   color: var(--slate-200);
   padding: 0.75rem 0;
-}
-
-.offcanvas .logo {
-  height: 32px;
 }
 
 .hero {
@@ -420,27 +404,6 @@ img {
 .service-card img {
   border-radius: 12px;
   margin-bottom: 1rem;
-}
-
-.image-placeholder {
-  width: 100%;
-  min-height: 180px;
-  border-radius: 12px;
-  background: linear-gradient(135deg, rgba(79, 134, 255, 0.18), rgba(7, 12, 31, 0.08));
-  border: 1px dashed rgba(79, 134, 255, 0.4);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: var(--text-muted);
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 0.8px;
-  font-size: 0.8rem;
-  margin-bottom: 1rem;
-}
-
-.image-placeholder-lg {
-  min-height: 240px;
 }
 
 .service-card a {
@@ -766,14 +729,6 @@ img {
 
   .navbar .nav-link {
     color: var(--accent-200);
-  }
-
-  .navbar .logo-default {
-    display: none;
-  }
-
-  .navbar .logo-light {
-    display: inline-block;
   }
 
   .back-to-top {
