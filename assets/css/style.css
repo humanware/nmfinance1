@@ -68,6 +68,20 @@ img {
   color: var(--accent-400);
 }
 
+#mainNav .navbar-toggler{
+  border-color: rgba(255,255,255,.25);
+}
+
+#mainNav .navbar-toggler-icon{
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255,255,255,0.95%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.offcanvas .btn-close{
+  filter: invert(1) brightness(2);
+  opacity: 1;
+}
+
+
 .navbar {
   transition: all 0.3s ease;
   z-index: 1035;
@@ -90,8 +104,8 @@ img {
 }
 
 .navbar .nav-link {
-  color: var(--white);
-  font-weight: 600;
+  color: var(--text-dark);
+  font-weight: 500;
   margin: 0 0.4rem;
   position: relative;
 }
@@ -307,6 +321,7 @@ img {
   padding: 2rem;
   backdrop-filter: blur(10px);
   box-shadow: var(--shadow-soft);
+  margin-top: -80px;
 }
 
 .hero-card ul {
@@ -746,7 +761,7 @@ img {
 }
 
 [data-anim] {
-  opacity: 1;
+  opacity: 1 !important;
   transform: none;
 }
 
