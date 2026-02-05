@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="220" height="60" viewBox="0 0 220 60" fill="none">
+  <defs>
+    <linearGradient id="g1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#2F6DFF"/>
+      <stop offset="100%" stop-color="#4F86FF"/>
+    </linearGradient>
+  </defs>
+  <rect x="4" y="6" width="48" height="48" rx="14" fill="#0B1430" stroke="url(#g1)" stroke-width="2"/>
+  <path d="M16 42V18L28 34L40 18V42" stroke="url(#g1)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="70" y="38" font-family="Inter, system-ui" font-size="24" font-weight="700" fill="#0B1430">NM Finance</text>
+</svg>
