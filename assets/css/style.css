@@ -808,3 +808,67 @@ img {
     transform: none;
   }
 }
+
+.page-hero {
+  position: relative;
+  padding: clamp(5rem, 8vw, 8rem) 0 clamp(3rem, 5vw, 4.5rem);
+  background: radial-gradient(circle at 20% 20%, rgba(47, 109, 255, 0.24), transparent 40%), #071227;
+}
+
+.page-hero h1 {
+  max-width: 780px;
+}
+
+.content-panel {
+  background: #fff;
+  border: 1px solid rgba(9, 29, 63, 0.1);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-md);
+  padding: clamp(1.2rem, 2vw, 1.8rem);
+}
+
+.step-card.large {
+  min-height: 100%;
+}
+
+.icon-box {
+  background: #fff;
+  border-radius: var(--radius-lg);
+  border: 1px solid rgba(9, 29, 63, 0.09);
+  box-shadow: var(--shadow-sm);
+  padding: 1.4rem;
+  text-align: center;
+  height: 100%;
+}
+
+.icon-box i {
+  width: 62px;
+  height: 62px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: linear-gradient(135deg, var(--primary), #5f8dff);
+  color: #fff;
+  margin-bottom: 0.85rem;
+  font-size: 1.35rem;
+}
+
+.form-message {
+  display: none;
+  margin-bottom: 0.75rem;
+  border-radius: 10px;
+  padding: 0.6rem 0.85rem;
+}
+
+.form-message.success {
+  display: block;
+  background: rgba(20, 171, 106, 0.12);
+  color: #0f7f4e;
+}
+
+.form-message.error {
+  display: block;
+  background: rgba(219, 67, 67, 0.12);
+  color: #a42828;
+}

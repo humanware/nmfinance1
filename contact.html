@@ -1,0 +1,236 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Contact | NM Finance</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/assets/css/style.css" />
+  </head>
+  <body>
+    <div class="topbar d-none d-lg-block" id="topbar">
+      <div class="container d-flex justify-content-between">
+        <div class="topbar-left">
+          <a href="tel:1800123456"
+            ><i class="fa-solid fa-phone"></i> 1800 123 456</a
+          >
+        </div>
+        <div class="topbar-right">
+          Fast approvals • Transparent terms • Local specialists
+        </div>
+      </div>
+    </div>
+    <nav class="navbar navbar-expand-lg fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand" href="/index.html"
+          ><img
+            src="/assets/img/logo.svg"
+            class="logo logo-default"
+            alt="NM Finance" /><img
+            src="/assets/img/logo-light.svg"
+            class="logo logo-light"
+            alt="NM Finance" /></a
+        ><button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse">
+          <ul class="navbar-nav ms-auto align-items-lg-center">
+            <li class="nav-item">
+              <a class="nav-link" href="/cash-advance.html">Cash Advance</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/services.html">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/how-it-works.html">How It Works</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/why-us.html">Why Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="/contact.html">Contact</a>
+            </li>
+            <li class="nav-item ms-lg-3">
+              <a class="btn btn-primary" href="#" data-loan-app="true"
+                >Apply Now</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNav">
+      <div class="offcanvas-header">
+        <img
+          src="/assets/img/logo-light.svg"
+          class="logo logo-light"
+          alt="NM Finance"
+        /><button class="btn-close" data-bs-dismiss="offcanvas"></button>
+      </div>
+      <div class="offcanvas-body">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="/cash-advance.html">Cash Advance</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/services.html">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/how-it-works.html">How It Works</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/why-us.html">Why Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="/contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <section class="page-hero">
+      <div class="container">
+        <p class="section-kicker">Contact Us</p>
+        <h1>Speak with a funding specialist today.</h1>
+        <p>
+          Send us your requirements and we will get back quickly with suitable
+          options.
+        </p>
+      </div>
+    </section>
+    <section class="section">
+      <div class="container">
+        <div class="row g-4 mb-4">
+          <div class="col-md-4" data-anim="fade-up">
+            <div class="icon-box">
+              <i class="fa-solid fa-envelope"></i>
+              <h5>Email</h5>
+              <p>hello@nmfinance.com</p>
+            </div>
+          </div>
+          <div class="col-md-4" data-anim="fade-up">
+            <div class="icon-box">
+              <i class="fa-solid fa-phone-volume"></i>
+              <h5>Phone</h5>
+              <p>1800 123 456</p>
+            </div>
+          </div>
+          <div class="col-md-4" data-anim="fade-up">
+            <div class="icon-box">
+              <i class="fa-solid fa-location-dot"></i>
+              <h5>Address</h5>
+              <p>500 Congress Ave, Suite 900, Austin, TX 78701</p>
+            </div>
+          </div>
+        </div>
+        <div class="row g-4">
+          <div class="col-lg-6" data-anim="fade-up">
+            <div class="map-placeholder h-100">
+              <h4>Office Location</h4>
+              <p>Interactive map placeholder for Austin, TX.</p>
+            </div>
+          </div>
+          <div class="col-lg-6" data-anim="fade-up">
+            <div class="contact-card">
+              <h4>Send an enquiry</h4>
+              <p id="formMessage" class="form-message"></p>
+              <form
+                id="contactForm"
+                action="/contact.php"
+                method="post"
+                novalidate
+              >
+                <input
+                  type="text"
+                  name="company_website"
+                  class="d-none"
+                  tabindex="-1"
+                  autocomplete="off"
+                />
+                <input
+                  type="hidden"
+                  name="form_start"
+                  id="form_start"
+                  value=""
+                />
+                <div class="mb-3">
+                  <label class="form-label" for="name">Full name</label
+                  ><input
+                    class="form-control"
+                    id="name"
+                    name="name"
+                    required
+                    minlength="2"
+                  />
+                </div>
+                <div class="mb-3">
+                  <label class="form-label" for="email">Email</label
+                  ><input
+                    class="form-control"
+                    id="email"
+                    name="email"
+                    type="email"
+                    required
+                  />
+                </div>
+                <div class="mb-3">
+                  <label class="form-label" for="phone">Phone</label
+                  ><input
+                    class="form-control"
+                    id="phone"
+                    name="phone"
+                    required
+                    pattern="[0-9+()\-\s]{8,20}"
+                  />
+                </div>
+                <div class="mb-3">
+                  <label class="form-label" for="message">Message</label
+                  ><textarea
+                    class="form-control"
+                    id="message"
+                    name="message"
+                    rows="4"
+                    required
+                    minlength="15"
+                  ></textarea>
+                </div>
+                <button class="btn btn-primary w-100" type="submit">
+                  Send Message
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-bottom">
+          <p>© <span id="year"></span> NM Finance. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+    <script src="/assets/js/main.js"></script>
+  </body>
+</html>
