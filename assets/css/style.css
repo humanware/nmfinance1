@@ -462,6 +462,10 @@ img {
   font-weight: 600;
 }
 
+.service-card.featured .btn-primary {
+  color: var(--white);
+}
+
 .service-card:hover {
   transform: translateY(-6px);
   box-shadow: 0 18px 38px rgba(7, 12, 31, 0.15);
@@ -817,6 +821,15 @@ img {
 
 .page-hero h1 {
   max-width: 780px;
+  color: var(--accent-200);
+}
+
+.page-hero p {
+    color: var(--slate-100);
+}
+
+.page-hero p.section-kicker {
+  color: var(--accent-500);
 }
 
 .content-panel {
@@ -848,7 +861,7 @@ img {
   align-items: center;
   justify-content: center;
   border-radius: 50%;
-  background: linear-gradient(135deg, var(--primary), #5f8dff);
+  background: linear-gradient(135deg, var(--accent-500), #5f8dff);
   color: #fff;
   margin-bottom: 0.85rem;
   font-size: 1.35rem;
