@@ -7,5 +7,6 @@
   </defs>
   <rect x="4" y="6" width="48" height="48" rx="14" fill="#0B1430" stroke="url(#g1)" stroke-width="2"/>
   <path d="M16 42V18L28 34L40 18V42" stroke="url(#g1)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
-  <text x="70" y="38" font-family="Inter, system-ui" font-size="24" font-weight="700" fill="#FFFFFF">NM Finance</text>
+  <text x="62" y="30" font-family="Inter, system-ui" font-size="13" font-weight="700" fill="#FFFFFF">Max Advance</text>
+  <text x="62" y="44" font-family="Inter, system-ui" font-size="12" font-weight="600" fill="#FFFFFF">Capital Funding</text>
 </svg>
